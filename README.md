@@ -39,3 +39,8 @@ corp-azure-vmss-secure-workload-factory/
 - **High-Availability Compute**: VMSS instances are automatically registered with Load Balancer backend address pools for seamless scaling.
 - **Pure HCL Guardrails**: Guardrails implemented via native `check` / `assert` blocks and `.tflint.hcl` without external scripts.
 - **Enterprise Standards**: Strictly typed `map(object({...}))`, dynamic iterations using `for_each`, and multi-environment configuration.
+
+
+## Architecture Review & Operational Checklist
+- Workload security posture audited.
+- Load balancer health probe verified with HTTP 200 status.
